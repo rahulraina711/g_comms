@@ -64,7 +64,7 @@ io.on('connection', socket=>{
 });
 
 // Setting up Port
-const PORT = 3100 || process.env.PORT;
+const PORT = process.env.PORT || 3100;
 
 // Listening to port
 server.listen(PORT, ()=>{
