@@ -1,10 +1,11 @@
 {
   "name": "g_comms",
   "version": "1.0.0",
-  "description": "",
+  "description": "Realtime Chat App with Rooms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/rahulraina711/g_comms/issues"
   },
-  "homepage": "https://github.com/rahulraina711/g_comms#readme"
+  "homepage": "https://github.com/rahulraina711/g_comms#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
